@@ -42,6 +42,11 @@ Open and start the Store channel to see channels you can get. You can enter a Gi
 You'll need to find an app source folder. Move this folder to `C:\xampp\htdocs\apps`.
 ## Common Error Fixes
 ### YouTube channel saying `You are being directed to youtube.com` and redirects to youtube.com instead of loading in TV Mode
+#### Solution 1 - Clear Cookies
+In the app, go to `Edit > Clear App Data`. This will wipe any cookies that may be blocking you from YouTube.
+#### Solution 2 - Uninstall and Reinstall
+Uninstall the YouTube app, launch the Store app and download it again.
+#### Solution 3 - Wait for a User Agent Update
 The user agent is out of date and I will try to update this ASAP. Basically, I have to change the [user agent](https://github.com/chillsocial/ChillAppManager/blob/main/latestUserAgent.txt) to appear as a Smart TV and as YouTube discontinues some user agents I have to switch it over to a new one.
 ### White Screen
 Although this error is extremely uncommon, there is a fix for this! Run `CTRL + Shift + I`, click the `Console` tab and enter the following...
