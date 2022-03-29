@@ -40,3 +40,11 @@ Chill Browser, Chill TV, Discord, Store and YouTube will be pre-installed. You c
 Open and start the Store channel to see channels you can get. You can enter a Github repository or use the official Chill one. Then, click a channel to install it. (Do not spam click, it may take awhile to install apps depending on the files contents).
 #### Downloading Apps (manually)
 You'll need to find an app source folder. Move this folder to `C:\xampp\htdocs\apps`.
+## Common Error Fixes
+### YouTube channel saying `You are being directed to youtube.com` and redirects to youtube.com instead of loading in TV Mode
+The user agent is out of date and I will try to update this ASAP. Basically, I have to change the [user agent](https://github.com/chillsocial/ChillAppManager/blob/main/latestUserAgent.txt) to appear as a Smart TV and as YouTube discontinues some user agents I have to switch it over to a new one.
+### White Screen
+Although this error is extremely uncommon, there is a fix for this! Run `CTRL + Shift + I`, click the `Console` tab and enter the following...
+```
+location = 'http://localhost';
+```
