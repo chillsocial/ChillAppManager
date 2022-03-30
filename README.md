@@ -53,3 +53,5 @@ Although this error is extremely uncommon, there is a fix for this! Run `CTRL + 
 ```
 location = 'http://localhost';
 ```
+### `Warning: file_get_contents([...]/latestUserAgent.txt): failed to open stream [...]` error on Home Screen or App Preloader
+This error is uncommon if you have stable internet. Most likely, your ethernet cable is not connected or your WiFi went down for a second and PHP couldn't get the latest user agent. Close the app manager immediately and open it again. Do this once more.
